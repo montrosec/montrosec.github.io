@@ -1,0 +1,133 @@
+body {
+	background-color: #e6eaed;
+    font-family: 'Nanum Gothic', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+#firstname {
+	display: inline-block;
+}
+
+#lastname {
+	display: inline-block;
+	color: #4f6c7d;
+}
+
+h1, h2 {
+    
+}
+
+
+.header {
+	/*position*/
+	padding-left: 10%;
+	padding-bottom: 1.5%;
+	padding-top: 1.5%;
+	position: fixed;
+	margin-bottom: 10%;
+	width: 100%;
+	
+	/*font*/
+	font-size: 200%;
+	
+	/*design*/
+	background-color: white;
+	/*border*/
+	border-bottom: 1.15px #9db3c2 solid;
+}
+
+.nav {
+	/*position*/
+	position: relative;
+	
+	
+
+	
+}
+
+.nav a{
+	/*position*/
+	padding-right: 2%;
+	text-decoration: none;
+	color: inherit;
+	font-size: 50%;
+}
+
+.footer{
+	/*position*/
+	position: fixed;
+	bottom: 0;
+	
+	
+	/*design*/
+	background-color: #3a505f;
+	width: 100%;
+	
+}
+
+.footer p{
+	padding-top: 3%;
+	padding-bottom: 1.5%;
+	padding-left: 2%;
+	
+	text-align: center;
+	
+	font-size: 90%;
+	
+	color: white;
+	
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 20%;
+  background-color: white;
+  display: inline-block;
+  
+  margin-left: 10%;
+  margin-top: 11.5%;
+  padding-bottom: .5%;
+}
+
+.blogCard {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 80%;
+  background-color: white;
+  display: inline-block;
+  
+  margin-left: 10%;
+  margin-top: 2%;
+  padding-bottom: .5%;
+}
+
+#firstPost {
+  margin-top: 9.5%;
+}
+
+.card img{
+	width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.blogCard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.blogDetails {
+  padding: 2px 16px;
+}
